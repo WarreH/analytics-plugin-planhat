@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Planhat integration for 'analytics' module for browser & node",
   "main": "index.js",
-   "files": [
+  "files": [
         "dist",
         "README.md"
-    ],
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"gulp"
@@ -16,13 +16,13 @@
     "planhat",
     "plugin"
   ],
-  "homepage": "https://github.com/ian/analytics/tree/main/packages/indicative#readme",
+  "homepage": "https://github.com/ZapFloorHQ/analytics-plugin-planhat#readme",
   "bugs": {
-    "url": "https://github.com/ian/analytics/issues"
+    "url": "https://github.com/ZapFloorHQ/analytics-plugin-planhat/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ian/analytics.git"
+    "url": "https://github.com/ZapFloorHQ/analytics-plugin-planhat"
   },
   "author": "Warre Hofmans",
   "license": "MIT",
