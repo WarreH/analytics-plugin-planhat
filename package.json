@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "Planhat integration for 'analytics' module for browser",
   "main": "index.js",
+  "projectMeta": {
+        "provider": {
+            "name": "Planhat",
+            "url": "https://www.planhat.com/"
+        },
+        "platforms": {
+            "browser": "./src/browser/index.ts",
+            "node": "./src/node/index.ts"
+        }
+  },
   "files": [
-        "dist",
-        "README.md"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"gulp"
+    "build": "gulp"
   },
   "keywords": [
     "analytics",
@@ -26,13 +36,12 @@
   },
   "author": "Warre Hofmans",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-clean": "^0.4.0",
     "gulp-minify": "^3.1.0",
     "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2"
   }
 }

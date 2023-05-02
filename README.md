@@ -32,7 +32,6 @@ analytics.identify([userId], {
   firstName: "[firstName]"",
   lastName: "[lastName]"",
   email: "[email]",
-  euExtId:"[userId]",
   companyExternalId:"[companyId]"
 })
 ```
@@ -42,7 +41,6 @@ analytics.identify([userId], {
 | **`email`**               | Email of the user. <br> Either userId or email is required to identify the user. <br> Provide an email if the userId is `null`.                                                        | 
 | **`firstName`**         | Firstname of the Planhat user                                            | 
 | **`lastName`**          | Lastname of the Planhat user                                             | 
-| **`euExtId`**           | External id of the Planhat user ex. Zapfloor uid                         |
 | **`companyExternalId`** | External id of a company in Planhat, the company must exists in Planhat. <br> Is required for the auto-creation of users.  |
 
 ## analytics.track
