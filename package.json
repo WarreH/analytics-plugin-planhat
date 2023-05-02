@@ -1,7 +1,7 @@
 {
   "name": "analytics-plugin-planhat",
   "version": "1.0.0",
-  "description": "Planhat integration for 'analytics' module for browser & node",
+  "description": "Planhat integration for 'analytics' module for browser",
   "main": "index.js",
   "files": [
         "dist",

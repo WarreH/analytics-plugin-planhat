@@ -38,7 +38,7 @@ interface IPlantrack{
 
 export default function planhatPlugin(pluginConfig:Config) {
   return {
-    name: 'planhat-plugin',
+    name: 'planhat',
     config: {
       tenantUUID: pluginConfig.tenantUUID,
     },
