@@ -8,16 +8,15 @@ app.get("/", (req, res) => {
         count: 1,
         weight: 1,
     });
-    console.log("track");
 });
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 
-    analytics.identify("testUser4", {
-        firstName: "demo",
-        lastName: "user2",
-        email: "test3@test.com",
+    analytics.identify("user12569test", {
+        firstName: "warre",
+        lastName: "hofmans",
+        email: "test@test.com",
         companyExternalId: "testid123456",
     });
 });
