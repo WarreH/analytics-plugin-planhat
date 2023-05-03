@@ -25,7 +25,7 @@ const analytics = Analytics({
 })
 
 ```
-[Example](./examples/browser/vue/README.md)
+[Example](./examples/browser/vue)
 
 ## Node
 ### CommonJS
@@ -43,7 +43,7 @@ const analytics = Analytics({
   ],
 })
 ```
-[Example](./examples/node/commonjs/README.md)
+[Example](./examples/node/commonjs)
 
 ### ES6 Modules
 ```
@@ -59,7 +59,7 @@ const analytics = Analytics({
   ],
 })
 ```
-[Example](./examples/node/modules/README.md)
+[Example](./examples/node/modules)
 # Methods
 ## analytics.identify
 Identify an user for which activities will be tracked.

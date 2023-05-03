@@ -1,3 +1,4 @@
 **/package-lock.json
 plugin/dist/
 **/node_modules
+passwords.txt

@@ -5,7 +5,7 @@ const analytics = Analytics({
     app: "veu-demo-project",
     plugins: [
         planhatPlugin({
-            tenantUUID: "REDACTED",
+            tenantUUID: "[replace with your tenantUUID]",
         }),
     ],
 });

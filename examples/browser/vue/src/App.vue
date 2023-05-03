@@ -4,11 +4,10 @@
   import analytics from "./analytics";
 
   onMounted(() => {
-    analytics.identify("testUser2", {
+    analytics.identify("user12569test", {
       firstName: 'warre',
       lastName: 'hofmans',
       email: "test@test.com",
-      euExtId:"user12569test",
       companyExternalId:"testid123456"
       })
 })
