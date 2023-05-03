@@ -1,17 +1,19 @@
 {
   "name": "analytics-plugin-planhat",
   "version": "1.0.0",
-  "description": "Planhat integration for 'analytics' module for browser",
-  "main": "index.js",
+  "description": "Planhat integration for 'analytics' module for browser & node",
+  "main": "./node/index.js",
+  "module": "./browser/index.js",
+  "browser": "./browser/index.js",
   "projectMeta": {
-        "provider": {
-            "name": "Planhat",
-            "url": "https://www.planhat.com/"
-        },
-        "platforms": {
-            "browser": "./src/browser/index.ts",
-            "node": "./src/node/index.ts"
-        }
+    "provider": {
+      "name": "Planhat",
+      "url": "https://www.planhat.com/"
+    },
+    "platforms": {
+      "browser": "./src/browser/index.ts",
+      "node": "./src/node/index.ts"
+    }
   },
   "files": [
     "dist",
@@ -39,9 +41,9 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
-    "gulp-minify": "^3.1.0",
-    "gulp-rename": "^2.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
   }
 }

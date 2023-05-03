@@ -10,8 +10,9 @@ npm install analytics analytics-plugin-planhat --save
 
 # Usage
 
+## Browser (Vue, React, Angular)
 ```
-import Analytics from "analytics"
+import { Analytics } from "analytics"
 import planhatPlugin from "analytics-plugin-planhat"
 
 const analytics = Analytics({
@@ -24,8 +25,43 @@ const analytics = Analytics({
 })
 
 ```
-## analytics.identify
+[Example](./examples/browser/vue/README.md)
 
+## Node
+### CommonJS
+```
+const { Analytics } = require('analytics')
+// or const Analytics = require('analytics').default
+const planhatPlugin  = require('analytics')
+
+const analytics = Analytics({
+  app: "[your app name]",
+  plugins: [
+    planhatPlugin({
+      tenantUUID: "[your tenantUUID]",
+    }),
+  ],
+})
+```
+[Example](./examples/node/commonjs/README.md)
+
+### ES6 Modules
+```
+import { Analytics } from 'analytics'
+import planhatPlugin  from 'planhatPlugin'
+
+const analytics = Analytics({
+  app: "[your app name]",
+  plugins: [
+    planhatPlugin({
+      tenantUUID: "[your tenantUUID]",
+    }),
+  ],
+})
+```
+[Example](./examples/node/modules/README.md)
+# Methods
+## analytics.identify
 Identify an user for which activities will be tracked.
 ```
 analytics.identify([userId], {
@@ -101,8 +137,14 @@ More information can be found in their [API documentation](https://docs.planhat.
 
 
 # Development
+Go to the folder `plugin`.
 
-Gulp is used to compile typescript to javascript. The compiled code will be minified and uglified.
+
+Install dependenies
+````
+npm install
+````
+Build package
 
 ````
 nmp run build

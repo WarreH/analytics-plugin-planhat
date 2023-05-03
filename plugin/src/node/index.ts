@@ -1,7 +1,7 @@
 import { Https } from "./https";
 import { UserStore } from "./userStore"
 
-export default function planhatPlugin(pluginConfig:any) {
+function planhatPlugin(pluginConfig:any) {
   return {
     name: "planhat",
     config: {
@@ -34,3 +34,5 @@ export default function planhatPlugin(pluginConfig:any) {
     }
   }
 }
+
+module.exports = planhatPlugin;
