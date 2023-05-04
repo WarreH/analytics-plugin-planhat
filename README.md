@@ -89,7 +89,7 @@ analytics.track([activity name], {
 ```
 | Argument          | Description                                                              | 
 | :----------       | :----------------------------------------------------------------------- | 
-| **`activity name`**     | Name of the tracked a user activity                                      
+| **`activity name`**     | Name of the tracked user activity                                      
 | **`extraAttribute`**    | Add additional information about the user activity                       | 
 
 If you only want to use this plugin:
