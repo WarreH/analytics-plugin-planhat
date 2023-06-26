@@ -8,11 +8,11 @@
   "projectMeta": {
     "provider": {
       "name": "Planhat",
-      "url": "https://www.planhat.com/"
+      "url": "https://www.planhat.com"
     },
     "platforms": {
-      "browser": "./src/browser/index.ts",
-      "node": "./src/node/index.ts"
+      "browser": "./src/browser/index.js",
+      "node": "./src/node/index.js"
     }
   },
   "files": [
@@ -28,13 +28,13 @@
     "planhat",
     "plugin"
   ],
-  "homepage": "https://github.com/ZapFloorHQ/analytics-plugin-planhat#readme",
+  "homepage": "https://github.com/WarreH/analytics-plugin-planhat#readme",
   "bugs": {
-    "url": "https://github.com/ZapFloorHQ/analytics-plugin-planhat/issues"
+    "url": "https://github.com/WarreH/analytics-plugin-planhat/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZapFloorHQ/analytics-plugin-planhat"
+    "url": "https://github.com/WarreH/analytics-plugin-planhat"
   },
   "author": "Warre Hofmans",
   "license": "MIT",
