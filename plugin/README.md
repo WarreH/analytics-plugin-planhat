@@ -115,4 +115,4 @@ More information about the usage of the methods and additional options can be fo
 
 # Powered By
 
-<img style="margin-right:10px;" src="./zapfloor_logo.png" align="left" width="200px">
+<img style="margin-right:10px;" src="https://github.com/WarreH/analytics-plugin-planhat/blob/main/docs/zapfloor_logo.png?raw=true" align="left" width="200px">
