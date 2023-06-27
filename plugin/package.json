@@ -1,6 +1,6 @@
 {
   "name": "analytics-plugin-planhat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Planhat integration for 'analytics' module for browser & node",
   "main": "./dist/node/index.js",
   "module": "./dist/browser/index.js",
@@ -16,7 +16,9 @@
     }
   },
   "files": [
-    "dist/"
+    "dist/",
+    "README.md",
+    "zapfloor_logo.png"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
