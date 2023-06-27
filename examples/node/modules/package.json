@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "analytics": "^0.8.1",
+    "analytics-plugin-planhat": "^1.0.4",
     "express": "^4.18.2"
   }
 }

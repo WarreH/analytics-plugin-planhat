@@ -13,6 +13,7 @@
     "@analytics/google-analytics": "^1.0.5",
     "@analytics/google-tag-manager": "^0.5.3",
     "analytics": "^0.8.1",
+    "analytics-plugin-planhat": "^1.0.4",
     "vue": "^3.2.47"
   },
   "devDependencies": {

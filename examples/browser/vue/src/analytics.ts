@@ -1,5 +1,5 @@
 import Analytics from "analytics";
-import planhatPlugin from "../../../../plugin/dist/browser/index"
+import planhatPlugin from "analytics-plugin-planhat"
 
 const analytics = Analytics({
     app: "veu-demo-project",

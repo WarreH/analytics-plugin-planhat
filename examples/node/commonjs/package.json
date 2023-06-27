@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "analytics": "^0.8.9",
+    "analytics-plugin-planhat": "^1.0.4",
     "express": "^4.18.2"
   }
 }

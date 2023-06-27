@@ -1,23 +1,22 @@
 {
   "name": "analytics-plugin-planhat",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Planhat integration for 'analytics' module for browser & node",
-  "main": "./node/index.js",
-  "module": "./browser/index.js",
-  "browser": "./browser/index.js",
+  "main": "./dist/node/index.js",
+  "module": "./dist/browser/index.js",
+  "browser": "./dist/browser/index.js",
   "projectMeta": {
     "provider": {
       "name": "Planhat",
       "url": "https://www.planhat.com"
     },
     "platforms": {
-      "browser": "./src/browser/index.js",
-      "node": "./src/node/index.js"
+      "browser": "./dist/browser/index.js",
+      "node": "./dist/node/index.js"
     }
   },
   "files": [
-    "dist",
-    "README.md"
+    "dist/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

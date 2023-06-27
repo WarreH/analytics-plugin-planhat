@@ -1,4 +1,4 @@
-import planhatPlugin from "../../../plugin/dist/node/index";
+import planhatPlugin from "analytics-plugin-planhat";
 import { Analytics } from "analytics";
 
 const analytics = Analytics({
