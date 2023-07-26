@@ -32,7 +32,7 @@ const analytics = Analytics({
 ```
 const { Analytics } = require('analytics')
 // or const Analytics = require('analytics').default
-const planhatPlugin  = require('analytics')
+const planhatPlugin  = require('analytics-plugin-planhat')
 
 const analytics = Analytics({
   app: "[your app name]",
@@ -48,7 +48,7 @@ const analytics = Analytics({
 ### ES6 Modules
 ```
 import { Analytics } from 'analytics'
-import planhatPlugin  from 'planhatPlugin'
+import planhatPlugin  from 'analytics-plugin-planhat'
 
 const analytics = Analytics({
   app: "[your app name]",
@@ -77,7 +77,7 @@ analytics.identify([userId], {
 | **`email`**               | Email of the user. <br> Either userId or email is required to identify the user. <br> Provide an email if the userId is `null`.                                                        | 
 | **`firstName`**         | Firstname of the Planhat user                                            | 
 | **`lastName`**          | Lastname of the Planhat user                                             | 
-| **`companyExternalId`** | External id of a company in Planhat, the company must exists in Planhat. <br> Is required for the auto-creation of users.  |
+| **`companyExternalId`** | ExternalId of a company in Planhat, the company must exist in Planhat. <br> Is required for the auto-creation of users.  |
 
 ## analytics.track
 Track an user activity for the identified user.

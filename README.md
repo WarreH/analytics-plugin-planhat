@@ -32,7 +32,7 @@ const analytics = Analytics({
 ```
 const { Analytics } = require('analytics')
 // or const Analytics = require('analytics').default
-const planhatPlugin  = require('analytics')
+const planhatPlugin  = require('analytics-plugin-planhat')
 
 const analytics = Analytics({
   app: "[your app name]",
@@ -48,7 +48,7 @@ const analytics = Analytics({
 ### ES6 Modules
 ```
 import { Analytics } from 'analytics'
-import planhatPlugin  from 'planhatPlugin'
+import planhatPlugin  from 'analytics-plugin-planhat'
 
 const analytics = Analytics({
   app: "[your app name]",
@@ -77,7 +77,7 @@ analytics.identify([userId], {
 | **`email`**               | Email of the user. <br> Either userId or email is required to identify the user. <br> Provide an email if the userId is `null`.                                                        | 
 | **`firstName`**         | Firstname of the Planhat user                                            | 
 | **`lastName`**          | Lastname of the Planhat user                                             | 
-| **`companyExternalId`** | External id of a company in Planhat, the company must exists in Planhat. <br> Is required for the auto-creation of users.  |
+| **`companyExternalId`** | ExternalId of a company in Planhat, the company must exist in Planhat. <br> Is required for the auto-creation of users.  |
 
 ## analytics.track
 Track an user activity for the identified user.
@@ -115,13 +115,13 @@ More information about the usage of the methods and additional options can be fo
 # Planhat Webplatform
 The tracked user activities can be found in the following locations:
 
-- [under customer intelligence](https://app-eu.planhat.com/ci/analytics/enduser/activity)
-<img  src="./docs/planhat_customer_intelligence_user_activities.png" >
+- [Under metrics](https://app-eu.planhat.com/data/metrics)
+<img  src="./docs/planhat_metrics.png" >
 
-- on a company page under the usage tab (<https://app-eu.planhat.com/profile/[companyId]?tab=usage>)
+- On a company page under the usage tab
 <img  src="./docs/planhat_data_company_user_activities.png" >
 
-- on a user page under the usage tab (<https://app-eu.planhat.com/people/[userId]?tab=usage>)
+- On a user page under the usage tab
 <img  src="./docs/planhat_data_user_user_activities.png" >
 
 # About PlanHat API
@@ -131,7 +131,7 @@ In order to track an activity of an user it must exist in Planhat. When an user 
 Planhat will still repsond with status code 200 if not all information is passed correctly. Errors can be found in the Planhat webplatform.
 
 - [API errors](https://app-eu.planhat.com/developer)
-- [Erros with tracking an user activity](https://app-eu.planhat.com/ci/analytics/enduser/activity)
+- Errors with tracking an user activity can be found under metrics
 
 More information can be found in their [API documentation](https://docs.planhat.com).
 
